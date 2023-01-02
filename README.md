@@ -18,7 +18,7 @@ Para instalar y utilizar FilmFind, siga los siguientes pasos:
 Clone este repositorio a su máquina local:
 
 ```sh
-https://github.com/victord96/filmfind
+git clone https://github.com/victord96/filmfind
 ```
 
 Cree un entorno virtual y actívelo:
