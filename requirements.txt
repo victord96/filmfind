@@ -1,4 +1,4 @@
-Django==4.1.4
+Django==4.1.5
 djangorestframework==3.14.0
-factory==1.2
-factory_boy==3.2.1
+factory-boy==3.2.1
+mysqlclient==2.1.1
