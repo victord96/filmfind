@@ -1,52 +1,52 @@
 # FilmFind
-FilmFind es una aplicación web que permite a los usuarios buscar y ver información sobre películas. La aplicación esta configurada para conectar con una bd en mysql y permite ver detalles de una película específica, y crear, actualizar y eliminar películas.
+FilmFind is a web application that allows users to search and view information about films. The application is configured to connect to a MySQL database and allows users to view details of a specific film, and create, update, and delete films.
 
-## Características principales
+## Key features
 
-- Búsqueda y visualización de películas
-- Detalles de película, incluyendo título, año, rating y sinopsis
-- Tests con factory_boy
+- Search and view films
+- Film details, including title, year, rating, and synopsis
+- Testing with factory_boy
 
-## Requisitos previos
-- Python 3.6 o posterior
-- Django 3.1 o posterior
+## Prerequisites
+- Python 3.6 or later
+- Django 3.1 or later
 
-## Instalación y uso
+## Installation and usage
 
-Para instalar y utilizar FilmFind, siga los siguientes pasos:
+To install and use FilmFind, follow the following steps:
 
-Clone este repositorio a su máquina local:
+Clone this repository to your local machine:
 
 ```sh
 git clone https://github.com/victord96/filmfind
 ```
 
-Cree un entorno virtual y actívelo:
+Create and activate a virtual environment:
 
 ```sh
 python3 -m venv venv
 source venv/bin/activate
 ```
-Instale las dependencias necesarias:
+Install the necessary dependencies:
 ```sh
 pip install -r requirements.txt
 ```
-Realice las migraciones necesarias:
+Perform the necessary migrations:
 ```sh
 python manage.py makemigrations
 python manage.py migrate
 ```
-Inicie el servidor de desarrollo:
+Start the development server:
 ```sh
 python manage.py runserver
 ```
-Acceda a la aplicación a través de su navegador web en la dirección http://127.0.0.1:8000/.
-## Pruebas
-Para ejecutar las pruebas de FilmFind, siga los siguientes pasos:
+Access the application through your web browser at http://127.0.0.1:8000/.
+## Testing
+To run the tests for FilmFind, follow the following steps:
 
-Asegúrese de que está en el directorio raíz del proyecto.
+Make sure you are in the root directory of the project.
 
-Ejecute el siguiente comando:
+Run the following command:
 ```sh
 python manage.py test
 ```
